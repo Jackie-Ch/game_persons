@@ -1,0 +1,27 @@
+.cardItem {
+  background: linear-gradient(15deg, rgb(255, 170, 58), rgb(253, 179, 157));
+  width: 280px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px auto;
+}
+.cardImage {
+  height: 10em;
+}
+.footer {
+  width: 85%;
+  margin: 50px auto 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .like {
+  cursor: pointer;
+}
+.footer button {
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}

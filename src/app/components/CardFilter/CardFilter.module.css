@@ -1,0 +1,7 @@
+.cardfilter button {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  font-size: 20px;
+  cursor: pointer;
+}
