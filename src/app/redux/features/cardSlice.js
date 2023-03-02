@@ -26,10 +26,15 @@ export const cardSlice = createSlice({
       });
     },
     handleDelete: (state, action) => {
-      const filteredCard = state.data.filter(
-        (card) => card.tail !== action.payload
+      // const filteredCard = state.data.filter(
+      //   (card) => card.tail !== action.payload
+      // );
+      // state.data = filteredCard;
+      const index = state.data.findIndex(
+        (card) => card.tail === action.payload
       );
-      state.data = filteredCard;
+      if (index === -1) return;
+      state.data.splice(index, 1);
     },
     handleFilterBookmark: (state) => {
       const filteredCard = state.data.filter((card) => card.bookmark === true);
