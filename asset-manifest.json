@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/game_persons/static/css/main.4ea46fcf.css",
+    "main.js": "/game_persons/static/js/main.cacc126d.js",
+    "index.html": "/game_persons/index.html",
+    "main.4ea46fcf.css.map": "/game_persons/static/css/main.4ea46fcf.css.map",
+    "main.cacc126d.js.map": "/game_persons/static/js/main.cacc126d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ea46fcf.css",
+    "static/js/main.cacc126d.js"
+  ]
+}
