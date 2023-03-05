@@ -6,12 +6,13 @@ import { useDispatch, useSelector } from 'react-redux';
 function CardItem() {
   const dispatch = useDispatch();
   const { data } = useSelector((state) => state.cardIt);
-  console.log('render CardItem');
+
   return (
     <>
+      <h1>TESTING...</h1>
       {data.map((card) => (
         <div className={styles.cardItem} key={card.tail}>
-          <img className={styles.cardImage} src={card.image} alt='img' />
+          <img className={styles.cardImage} src={card.image} alt="img" />
           <div>name: {card.name}</div>
           <div>type: {card.type}</div>
 
