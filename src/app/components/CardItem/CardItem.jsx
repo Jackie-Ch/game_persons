@@ -9,7 +9,6 @@ function CardItem() {
 
   return (
     <>
-      <h1>TESTING...</h1>
       {data.map((card) => (
         <div className={styles.cardItem} key={card.tail}>
           <img className={styles.cardImage} src={card.image} alt="img" />
